@@ -1,5 +1,33 @@
 # Day 1 — Can We Trust This Data?
 
+# Commands We Will Use Today
+
+### Loading the Data
+
+`pd.read_excel()`
+
+### Inspecting the Dataset
+
+`head()` · `sample()` · `shape` · `columns` · `dtypes` · `info()` · `describe()`
+
+### Checking Missing Data
+
+`isna()` · `sum()`
+
+### Checking Duplicates
+
+`duplicated()` · `sort_values()`
+
+### Exploring Values
+
+`unique()` · `nunique()` · `value_counts()`
+
+### Filtering the Data
+
+Boolean filtering
+
+> We will learn what these commands do and when to use them as we work through today's exercise.
+
 ## Business Scenario
 
 You just joined the Data Engineering team at an online retail company. Management wants
@@ -451,4 +479,5 @@ pd.DataFrame(facts.items(), columns=["Metric", "Value"])
 This report is the Day 1 deliverable. It becomes the starting point for Day 2, where we start
 making — carefully, and with reasons — the cleaning decisions this file clearly needs.
 
----
+*(Instructor note: expected values for every section live in `Instructor_Reference.md` — not
+for student distribution.)*
