@@ -113,6 +113,21 @@ a confusing error.
 
 **Returns:** `True` or `False`.
 
+It checks against one list, defined once near the top of the script, right after the imports:
+
+```python
+REQUIRED_COLUMNS = [
+    "InvoiceNo",
+    "StockCode",
+    "Description",
+    "Quantity",
+    "InvoiceDate",
+    "UnitPrice",
+    "CustomerID",
+    "Country",
+]
+```
+
 ```python
 def validate_columns(df):
     missing_columns = []

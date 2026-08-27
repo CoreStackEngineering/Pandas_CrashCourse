@@ -479,5 +479,4 @@ pd.DataFrame(facts.items(), columns=["Metric", "Value"])
 This report is the Day 1 deliverable. It becomes the starting point for Day 2, where we start
 making — carefully, and with reasons — the cleaning decisions this file clearly needs.
 
-*(Instructor note: expected values for every section live in `Instructor_Reference.md` — not
-for student distribution.)*
+
